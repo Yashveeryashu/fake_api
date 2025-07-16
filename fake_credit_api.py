@@ -138,6 +138,182 @@ transactions = [
 
 
 
+from datetime import date
+
+# Add this with your other data lists
+person_details = [
+    {
+        "id": 1,
+        "name": "Rahul Sharma",
+        "dob": date(1985, 7, 15).isoformat(),
+        "pan": "ABCPR1234D",
+        "aadhaar": "2345 6789 0123",
+        "company": "Tata Consultancy Services"
+    },
+    {
+        "id": 2,
+        "name": "Priya Patel",
+        "dob": date(1990, 3, 22).isoformat(),
+        "pan": "DEFPR5678E",
+        "aadhaar": "3456 7890 1234",
+        "company": "Infosys Technologies"
+    },
+    {
+        "id": 3,
+        "name": "Amit Kumar Singh",
+        "dob": date(1982, 11, 5).isoformat(),
+        "pan": "GHIPR9012F",
+        "aadhaar": "4567 8901 2345",
+        "company": "Wipro Limited"
+    },
+    {
+        "id": 4,
+        "name": "Neha Gupta",
+        "dob": date(1995, 9, 18).isoformat(),
+        "pan": "JKLMN3456G",
+        "aadhaar": "5678 9012 3456",
+        "company": "HDFC Bank"
+    },
+    {
+        "id": 5,
+        "name": "Vikram Joshi",
+        "dob": date(1978, 2, 28).isoformat(),
+        "pan": "NOPQR7890H",
+        "aadhaar": "6789 0123 4567",
+        "company": "Reliance Industries"
+    },
+    {
+        "id": 6,
+        "name": "Ananya Reddy",
+        "dob": date(1992, 12, 8).isoformat(),
+        "pan": "STUVW1234I",
+        "aadhaar": "7890 1234 5678",
+        "company": "ICICI Bank"
+    },
+    {
+        "id": 7,
+        "name": "Rajesh Iyer",
+        "dob": date(1987, 4, 30).isoformat(),
+        "pan": "XYZAB5678J",
+        "aadhaar": "8901 2345 6789",
+        "company": "Bharti Airtel"
+    },
+    {
+        "id": 8,
+        "name": "Deepika Menon",
+        "dob": date(1993, 6, 25).isoformat(),
+        "pan": "CDEFG9012K",
+        "aadhaar": "9012 3456 7890",
+        "company": "Larsen & Toubro"
+    },
+    {
+        "id": 9,
+        "name": "Arjun Malhotra",
+        "dob": date(1980, 8, 12).isoformat(),
+        "pan": "HIJKL3456L",
+        "aadhaar": "0123 4567 8901",
+        "company": "State Bank of India"
+    },
+    {
+        "id": 10,
+        "name": "Pooja Chatterjee",
+        "dob": date(1996, 1, 7).isoformat(),
+        "pan": "MNOPQ7890M",
+        "aadhaar": "1234 5678 9012",
+        "company": "Adani Enterprises"
+    },
+    {
+        "id": 11,
+        "name": "Sanjay Verma",
+        "dob": date(1975, 5, 19).isoformat(),
+        "pan": "RSTUV1234N",
+        "aadhaar": "2345 6789 0123",
+        "company": "Mahindra & Mahindra"
+    },
+    {
+        "id": 12,
+        "name": "Meena Deshpande",
+        "dob": date(1989, 10, 3).isoformat(),
+        "pan": "WXYZA5678O",
+        "aadhaar": "3456 7890 1234",
+        "company": "Axis Bank"
+    },
+    {
+        "id": 13,
+        "name": "Vivek Nair",
+        "dob": date(1983, 7, 22).isoformat(),
+        "pan": "BCDEF9012P",
+        "aadhaar": "4567 8901 2345",
+        "company": "Tech Mahindra"
+    },
+    {
+        "id": 14,
+        "name": "Shweta Rao",
+        "dob": date(1994, 4, 14).isoformat(),
+        "pan": "GHIJK3456Q",
+        "aadhaar": "5678 9012 3456",
+        "company": "Kotak Mahindra Bank"
+    },
+    {
+        "id": 15,
+        "name": "Rohit Khanna",
+        "dob": date(1986, 9, 9).isoformat(),
+        "pan": "LMNOP7890R",
+        "aadhaar": "6789 0123 4567",
+        "company": "Asian Paints"
+    },
+    {
+        "id": 16,
+        "name": "Anjali Mehta",
+        "dob": date(1991, 2, 27).isoformat(),
+        "pan": "QRSTU1234S",
+        "aadhaar": "7890 1234 5678",
+        "company": "Bajaj Finance"
+    },
+    {
+        "id": 17,
+        "name": "Karthik Subramanian",
+        "dob": date(1979, 12, 15).isoformat(),
+        "pan": "VWXYZ5678T",
+        "aadhaar": "8901 2345 6789",
+        "company": "Hindustan Unilever"
+    },
+    {
+        "id": 18,
+        "name": "Divya Iyer",
+        "dob": date(1997, 8, 6).isoformat(),
+        "pan": "ABCDE9012U",
+        "aadhaar": "9012 3456 7890",
+        "company": "ITC Limited"
+    },
+    {
+        "id": 19,
+        "name": "Alok Pandey",
+        "dob": date(1984, 3, 11).isoformat(),
+        "pan": "FGHIJ3456V",
+        "aadhaar": "0123 4567 8901",
+        "company": "Maruti Suzuki"
+    },
+    {
+        "id": 20,
+        "name": "Sunita Reddy",
+        "dob": date(1976, 11, 23).isoformat(),
+        "pan": "KLMNO7890W",
+        "aadhaar": "1234 5678 9012",
+        "company": "HCL Technologies"
+    }
+]
+
+# Add these endpoints
+@app.get("/api/person-details", summary="Get all person details")
+def get_person_details():
+    return person_details
+
+@app.get("/api/person-details/{id}", summary="Get specific person by ID")
+def get_person_by_id(id: int):
+    person = next((p for p in person_details if p["id"] == id), None)
+    return person if person else {"error": "Person not found"}
+
 @app.get("/api/credit-details", summary="Get all credit details")
 def get_credit_details():
     return credit_data
